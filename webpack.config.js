@@ -18,9 +18,14 @@ module.exports = {
   module: {
     rules: [{
       test: /.js$/,
-      use: 'babel-loader',
       include: /src/,
-    }]
+      use: [{
+        loader: 'babel-loader',
+        options: {
+          presets: ['babel-preset-react', 'babel-preset-latest', 'babel-preset-stage-2']
+        }
+      }],
+    }],
   },
 
   plugins: [

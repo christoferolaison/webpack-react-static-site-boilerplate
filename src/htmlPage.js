@@ -1,5 +1,5 @@
 
-export default (body) => `
+export default ({ app = '', main = '', title = 'webpack-react-static-site-boilerplate' }) => `
   <!DOCTYPE HTML>
   <html>
     <head>
@@ -7,7 +7,8 @@ export default (body) => `
       <title></title>
     </head>
     <body>
-      ${body}
+      <div id="app">${app}</div>
+      <script src=${main}></script>
     </body>
   </html>
 `
