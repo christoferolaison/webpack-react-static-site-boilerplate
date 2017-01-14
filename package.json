@@ -1,0 +1,33 @@
+{
+  "name": "webpack-react-static-site-boilerplate",
+  "version": "0.0.1",
+  "description": "Boilerplate for creating static web apps with React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christoferolaison/webpack-react-static-site-boilerplate.git"
+  },
+  "keywords": [
+    "static",
+    "site",
+    "react",
+    "webpack"
+  ],
+  "author": "Christofer Olaison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/christoferolaison/webpack-react-static-site-boilerplate/issues"
+  },
+  "homepage": "https://github.com/christoferolaison/webpack-react-static-site-boilerplate",
+  "devDependencies": {
+    "babel-loader": "^6.2.10",
+    "browser-sync": "^2.18.6",
+    "browser-sync-webpack-plugin": "^1.1.3",
+    "static-site-generator-webpack-plugin": "^3.1.0",
+    "webpack": "^2.2.0-rc.4"
+  }
+}
