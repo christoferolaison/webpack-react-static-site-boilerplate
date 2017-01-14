@@ -4,7 +4,8 @@ export default ({ app = '', main = '', title = 'webpack-react-static-site-boiler
   <html>
     <head>
      <meta charset="utf-8">
-      <title></title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>${title}</title>
     </head>
     <body>
       <div id="app">${app}</div>
