@@ -6,7 +6,7 @@ class App extends Component {
   state = {
     images: [
       'https://images.unsplash.com/photo-1469715492424-1192d1e15221?dpr=1&auto=format&fit=crop&w=767&h=432&q=80&cs=tinysrgb&crop=',
-      'https://images.unsplash.com/photo-1457689331410-06249d3075af?dpr=1&auto=format&fit=crop&w=767&h=431&q=80&cs=tinysrgb&crop='
+      'https://images.unsplash.com/photo-1469721492384-bf51ab0a0a59?dpr=2&auto=format&fit=crop&w=1199&h=675&q=80&cs=tinysrgb&crop='
     ],
     selected: 0,
   };
