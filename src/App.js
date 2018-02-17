@@ -41,7 +41,7 @@ class App extends Component {
           webpack-react-static-site-boilerplate
         </h1>
         <p
-          style={{ fontSize: 18 }}
+          style={{ fontSize: 20 }}
         >
           A boilerplate for creating static web apps with React. It uses webpack for bundling and Github Pages for simple deploys.</p>
         <img
